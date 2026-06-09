@@ -1,0 +1,6 @@
+{
+  "name": "India College Explorer",
+  "description": "Explore top engineering institutes (IITs, NITs, IIITs, and State/Central Govt Colleges) in all 28 states of India with details on admission exams, fests, and campus events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

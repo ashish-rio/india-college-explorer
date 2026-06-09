@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+
+/* Hide scrollbar utility class */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+/* Premium micro-scrollbar styling for intuitive system scrolling container */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(24, 24, 27, 0.4);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(63, 63, 70, 0.6);
+  border-radius: 9999px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.8);
+}
+
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(63, 63, 70, 0.6) rgba(24, 24, 27, 0.4);
+}
+
+/* Horizontal modern scrollbar scroll indicators */
+.custom-scrollbar-x::-webkit-scrollbar {
+  height: 3.5px;
+}
+
+.custom-scrollbar-x::-webkit-scrollbar-track {
+  background: rgba(24, 24, 27, 0.3);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar-x::-webkit-scrollbar-thumb {
+  background: rgba(59, 130, 246, 0.35);
+  border-radius: 9999px;
+}
+
+.custom-scrollbar-x::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 130, 246, 0.7);
+}
+
+.custom-scrollbar-x {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(59, 130, 246, 0.35) rgba(24, 24, 27, 0.3);
+}
+
+@keyframes custom-blink {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+    box-shadow: 0 0 16px rgba(239, 68, 68, 0.55);
+    background-color: rgba(127, 29, 29, 0.6);
+    border-color: rgba(239, 68, 68, 0.7);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.97);
+    box-shadow: 0 0 6px rgba(239, 68, 68, 0.15);
+    background-color: rgba(127, 29, 29, 0.15);
+    border-color: rgba(239, 68, 68, 0.2);
+  }
+}
+
+@utility animate-blink {
+  animation: custom-blink 1.2s infinite ease-in-out;
+}
+
