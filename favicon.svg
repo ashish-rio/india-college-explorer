@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Circular white high-contrast background to pop beautifully on any browser tab theme -->
+  <rect width="512" height="512" rx="128" fill="#FFFFFF" />
+  
+  <g transform="translate(16, 24) scale(0.92)">
+    <!-- Red Accent: #FF4D35 (vibrant branding orange-red matching Explorer logo) -->
+    
+    <!-- 1. Tassel (hangs gracefully on the left edge) -->
+    <!-- Hanging cord -->
+    <path d="M 124 165 C 124 195, 118 235, 118 275" stroke="#FF4D35" stroke-width="9" stroke-linecap="round" fill="none" />
+    <!-- Tassel connector band -->
+    <ellipse cx="118" cy="280" rx="8" ry="6" fill="#D8301B" />
+    <!-- Tassel hanging ornament -->
+    <path d="M 110 284 L 126 284 L 128 335 L 108 335 Z" fill="#FF4D35" />
+    <path d="M 115 284 L 121 284 L 122 335 L 114 335 Z" fill="#FF7D68" />
+
+    <!-- 2. Skull Cap (underneath part of mortarboard) -->
+    <path d="M 148 214 C 148 214, 140 315, 256 317 C 372 315, 364 214, 364 214" fill="#FF4D35" />
+    <!-- Top rim shadow of skull cap -->
+    <path d="M 148 214 C 180 234, 332 234, 364 214 C 330 222, 182 222, 148 214 Z" fill="#D8301B" opacity="0.45" />
+
+    <!-- 3. The Book / Cap Top Panel (tilted in perspective) -->
+    <!-- Main red-orange cover body -->
+    <path d="M 92 168 L 256 70 L 420 168 L 256 266 Z" fill="#FF4D35" />
+
+    <!-- Perspective pages thickness layers (white paper layers stacked) -->
+    <path d="M 92 168 L 92 186 L 256 284 L 420 186 L 420 168 L 256 266 Z" fill="#FFFFFF" stroke="#D8301B" stroke-width="2" />
+    <!-- Additional pages grooves for book look -->
+    <path d="M 120 195 L 256 277 L 392 195" stroke="#E2E8F0" stroke-width="2.5" fill="none" />
+    <path d="M 150 213 L 256 277 L 362 213" stroke="#CBD5E1" stroke-width="2" fill="none" />
+
+    <!-- 4. "E" Stylized Book Spine & Layout Lines on top cover of book -->
+    <!-- Large, bold perspective 'E' overlay on the red cover face -->
+    <!-- Spine vertical backboard of the E (on the left edge) -->
+    <polygon points="128,162 236,104 246,110 138,168" fill="#FFFFFF" />
+    
+    <!-- Top arm bar of 'E' pointing right -->
+    <polygon points="236,104 354,124 346,134 238,114" fill="#FFFFFF" />
+    
+    <!-- Middle arm bar of 'E' pointing right -->
+    <polygon points="202,130 298,146 290,154 198,138" fill="#FFFFFF" />
+    
+    <!-- Bottom arm bar of 'E' pointing right -->
+    <polygon points="166,155 244,168 238,176 162,163" fill="#FFFFFF" />
+  </g>
+</svg>
